@@ -16,6 +16,26 @@ h1{
     margin-bottom: auto;
     font-weight: bolder;
 }
+nav{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+li{
+    display: inline-block;
+    background-color:#07b9a9;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    
+}
+li:hover{
+    background-color:#059a8d; 
+}
+a{
+    color:white;
+    font-size: 28px;
+    text-decoration: none;
+}
 h2{
    float: right; 
    position: relative;
@@ -24,8 +44,8 @@ h2{
    font-weight: normal;
 }
 main {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 form {
     margin-top: 100px;
@@ -57,8 +77,17 @@ h3 {
 }
 footer{
     padding-left: 20px;
+
 }
 /*ID & CLASSES*/
+#title {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    border-width:  thin;
+}
 #Add{
     float:right;
     border-radius:5px;
@@ -88,4 +117,10 @@ footer{
     padding:15px 10px 15px 10px;
 
     margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .card {
+        width:100%;
+    }
 }
